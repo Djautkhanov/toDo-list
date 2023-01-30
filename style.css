@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list{
+    margin-top: 10px;
+    width: 248px;
+}
+.task{
+    margin: 5px 0 2px ;
+    border-bottom: 1px solid rgb(71, 70, 70);
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+.task-done{
+    opacity: 0.5;
+}
+.btn-delete{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
